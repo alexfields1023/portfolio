@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import './base.css';
+
+@import 'tailwindcss/components';
+@import './components.css';
+
+@import 'tailwindcss/utilities';
+@import './utilities.css';
+
+@font-face {
+  font-family: 'Agustina Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Agustina Regular'),
+    url('../public/assets/Agustina.woff') format('woff');
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+.logo {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: normal;
+}

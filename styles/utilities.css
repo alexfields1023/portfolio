@@ -1,0 +1,26 @@
+@layer utilities {
+  @keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+      transform-origin: center;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .gradient {
+    background: linear-gradient(134deg, #00eaf8 0%, #6d42ef 100%);
+  }
+
+  .animate-grow {
+    animation: grow ease 4s infinite;
+  }
+
+  .debug-screens {
+    @apply z-auto;
+  }
+}
