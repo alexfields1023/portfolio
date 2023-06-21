@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: false,
   output: 'export',
-  distDir: '.next',
+  distDir: 'out',
   experimental: {
     appDir: true,
   },
